@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-public class LoginServlet extends HttpServlet {
+public class dealerlog extends HttpServlet {
 
-    @Override
+  
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
            if(result > 0)
            {
                out.println("login successfull");
-               response.sendRedirect("index12.html");
+               response.sendRedirect("index_2.html");
                
            }
            else
